@@ -1,0 +1,36 @@
+html, body, h1, h2, h3, h4, h5, h6, p, hr, ol, ul, li, dl, dt, dd, a, em, strong, sub, sup, form, textarea, input, button, article, footer, header, main, nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, footer, header, main, nav {
+    display: block;
+}
+body {
+    line-height: 1;
+    text-rendering: optimizeLegibility;
+}
+em {
+    font-style: italic;
+}
+strong {
+    font-weight: bold;
+}
+:focus {
+    outline: 0;
+}
+form {
+    display: block;
+}
+input, button {
+    display: inline-block;
+    height: 1.4em;
+    padding: 0.2em 0.3em;
+    line-height: 0!important;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
